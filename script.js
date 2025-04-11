@@ -1,9 +1,9 @@
 const wordList = [
-    { word: "banana", hint: "It's a fruit 🍌" },
-    { word: "elephant", hint: "Largest land animal 🐘" },
-    { word: "computer", hint: "You’re using it now 💻" },
-    { word: "pyramid", hint: "Famous ancient structure 🏜️" },
-    { word: "guitar", hint: "A musical instrument 🎸" }
+    { word: "banana", hint: "It's a fruit " },
+    { word: "elephant", hint: "Largest land animal " },
+    { word: "computer", hint: "You’re using it now " },
+    { word: "pyramid", hint: "Famous ancient structure " },
+    { word: "guitar", hint: "A musical instrument " }
   ];
   
   let word = "", hint = "";
