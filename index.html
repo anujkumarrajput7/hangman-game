@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hangman Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="back-button" onclick="history.back()">⬅ Back</button>
+
+  <div class="coin-display">
+    <img src="assets/coin.png" alt="coin"/>
+    <span id="coinCount">0</span>
+  </div>
+
+  <div class="container">
+    <h1>Hangman Game</h1>
+    <div class="hangman">
+      <div class="pole"></div>
+      <div class="rope"></div>
+      <div class="head body-part"></div>
+      <div class="body body-part"></div>
+      <div class="arm-left body-part"></div>
+      <div class="arm-right body-part"></div>
+      <div class="leg-left body-part"></div>
+      <div class="leg-right body-part"></div>
+    </div>
+    <div class="hint"><strong>Hint:</strong> </div>
+    <div class="word" id="wordDisplay">_ _ _ _</div>
+    <div class="used">Guessed: <span id="letters">None</span></div>
+    <div class="result" id="resultText"></div>
+    <div class="btns">
+      <button id="nextBtn" class="hidden">Next Level</button>
+      <button id="playAgainBtn" class="hidden">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
